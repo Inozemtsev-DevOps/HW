@@ -1,0 +1,12 @@
+Port 3333
+ListenAddress 0.0.0.0
+
+PermitRootLogin no
+PasswordAuthentication yes
+PubkeyAuthentication yes
+
+UsePAM yes
+
+Subsystem sftp internal-sftp
+
+AuthorizedKeysFile /home/john/.ssh/authorized_keys

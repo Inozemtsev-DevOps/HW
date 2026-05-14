@@ -1,0 +1,11 @@
+Port 2222
+
+PermitRootLogin no
+PasswordAuthentication no
+PubkeyAuthentication yes
+
+AllowUsers john
+
+AuthorizedKeysFile /home/john.ssh/authorized_keys
+
+Subsystem sftp internal-sftp
